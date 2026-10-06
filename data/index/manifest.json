@@ -1,0 +1,28 @@
+{
+ "builtAt": "2026-10-05T17:00:25.739Z",
+ "node": "v24.9.0",
+ "source": {
+  "jmdict-cn": 22589,
+  "jlpt-official": 8279,
+  "jlpt-official-only": 562,
+  "kanjiReadings": 12356,
+  "kanjiReadingsFrom": "kanjidic2"
+ },
+ "counts": {
+  "N5": 654,
+  "N4": 619,
+  "N3": 1629,
+  "N2": 1663,
+  "N1": 2660,
+  "extra": 15364
+ },
+ "total": 22589,
+ "noChineseGloss": 0,
+ "lookupKeys": 50412,
+ "readingKeys": 24469,
+ "bytes": {
+  "vocab": 11027397
+ },
+ "maxExtra": 0,
+ "extraDropped": 0
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>QA · 每日复习上限的真界面验证</title>
+<!--
+  这个页面是 `tools/qa-vocab-quota.mjs` 的载荷。
+
+  为什么必须用真浏览器、假 DOM 不够：
+    假 DOM 能证明「纯函数算得对」，证明不了「界面把两个数字都写出来了」。
+    这个功能出的那个 bug 恰恰就是**界面接线**：
+      buildPlan 算出了 dueReviewCount / reviewToday / reviewDeferred，
+      但按钮只写了到期总数（「开始复习（537 个到期）」），点进去只给 40 题，
+      而且页面上任何地方都不说还有 497 个。
+    要验的是「用户在屏幕上真的同时看得到这两个数」，只有真排版 + 真事件能验。
+
+  为什么用**真 IndexedDB**：
+    本页会往库里写 120 个词 + 120 张到期卡。这是安全的 —— 自检脚本用的是
+    临时浏览器用户目录（跑完连目录一起删），碰不到用户自己的数据。
+    这里也**不需要**装假的 IndexedDB：能用真环境就用真环境，别急着造替身。
+
+  ⚠️ 本文件里不许出现 Markdown 的 `**`（check-markdown 会扫 app/ 下所有
+     .js 的字符串字面量），也不要在用户可见文案里夹 2 个以上连续英文字母。
+-->
+<link rel="stylesheet" href="/css/theme.css">
+<style>
+  /* 自检专用：给挂载点一个正常宽度，别让窄视口影响排版 */
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); }
+  #mount { max-width: 1100px; margin: 0 auto; padding: 18px; }
+</style>
+</head>
+<body>
+<div id="mount"></div>
+<script type="module" src="/app/__qa__/vocab-quota.js"></script>
+</body>
+</html>

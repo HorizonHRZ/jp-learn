@@ -1,0 +1,1142 @@
+{
+ "format": "jp-learn-kana-table",
+ "formatVersion": 1,
+ "generatedAt": "2026-10-04T07:55:55.778Z",
+ "note": "五十音 / 浊音 / 半浊音 / 拗音的结构化表，供前端五十音图与假名练习使用。",
+ "layouts": {
+  "gojuon": [
+   {
+    "row": "あ",
+    "cells": [
+     "あ",
+     "い",
+     "う",
+     "え",
+     "お"
+    ]
+   },
+   {
+    "row": "か",
+    "cells": [
+     "か",
+     "き",
+     "く",
+     "け",
+     "こ"
+    ]
+   },
+   {
+    "row": "さ",
+    "cells": [
+     "さ",
+     "し",
+     "す",
+     "せ",
+     "そ"
+    ]
+   },
+   {
+    "row": "た",
+    "cells": [
+     "た",
+     "ち",
+     "つ",
+     "て",
+     "と"
+    ]
+   },
+   {
+    "row": "な",
+    "cells": [
+     "な",
+     "に",
+     "ぬ",
+     "ね",
+     "の"
+    ]
+   },
+   {
+    "row": "は",
+    "cells": [
+     "は",
+     "ひ",
+     "ふ",
+     "へ",
+     "ほ"
+    ]
+   },
+   {
+    "row": "ま",
+    "cells": [
+     "ま",
+     "み",
+     "む",
+     "め",
+     "も"
+    ]
+   },
+   {
+    "row": "や",
+    "cells": [
+     "や",
+     "",
+     "ゆ",
+     "",
+     "よ"
+    ]
+   },
+   {
+    "row": "ら",
+    "cells": [
+     "ら",
+     "り",
+     "る",
+     "れ",
+     "ろ"
+    ]
+   },
+   {
+    "row": "わ",
+    "cells": [
+     "わ",
+     "",
+     "",
+     "",
+     "を"
+    ]
+   },
+   {
+    "row": "ん",
+    "cells": [
+     "ん",
+     "",
+     "",
+     "",
+     ""
+    ]
+   }
+  ],
+  "dakuon": [
+   {
+    "row": "が",
+    "cells": [
+     "が",
+     "ぎ",
+     "ぐ",
+     "げ",
+     "ご"
+    ]
+   },
+   {
+    "row": "ざ",
+    "cells": [
+     "ざ",
+     "じ",
+     "ず",
+     "ぜ",
+     "ぞ"
+    ]
+   },
+   {
+    "row": "だ",
+    "cells": [
+     "だ",
+     "ぢ",
+     "づ",
+     "で",
+     "ど"
+    ]
+   },
+   {
+    "row": "ば",
+    "cells": [
+     "ば",
+     "び",
+     "ぶ",
+     "べ",
+     "ぼ"
+    ]
+   },
+   {
+    "row": "ぱ",
+    "cells": [
+     "ぱ",
+     "ぴ",
+     "ぷ",
+     "ぺ",
+     "ぽ"
+    ]
+   }
+  ]
+ },
+ "yoon": [
+  {
+   "hira": "きゃ",
+   "kata": "キャ",
+   "hepburn": "kya",
+   "kunrei": "kya"
+  },
+  {
+   "hira": "きゅ",
+   "kata": "キュ",
+   "hepburn": "kyu",
+   "kunrei": "kyu"
+  },
+  {
+   "hira": "きょ",
+   "kata": "キョ",
+   "hepburn": "kyo",
+   "kunrei": "kyo"
+  },
+  {
+   "hira": "しゃ",
+   "kata": "シャ",
+   "hepburn": "sha",
+   "kunrei": "sya"
+  },
+  {
+   "hira": "しゅ",
+   "kata": "シュ",
+   "hepburn": "shu",
+   "kunrei": "syu"
+  },
+  {
+   "hira": "しょ",
+   "kata": "ショ",
+   "hepburn": "sho",
+   "kunrei": "syo"
+  },
+  {
+   "hira": "ちゃ",
+   "kata": "チャ",
+   "hepburn": "cha",
+   "kunrei": "tya"
+  },
+  {
+   "hira": "ちゅ",
+   "kata": "チュ",
+   "hepburn": "chu",
+   "kunrei": "tyu"
+  },
+  {
+   "hira": "ちょ",
+   "kata": "チョ",
+   "hepburn": "cho",
+   "kunrei": "tyo"
+  },
+  {
+   "hira": "にゃ",
+   "kata": "ニャ",
+   "hepburn": "nya",
+   "kunrei": "nya"
+  },
+  {
+   "hira": "にゅ",
+   "kata": "ニュ",
+   "hepburn": "nyu",
+   "kunrei": "nyu"
+  },
+  {
+   "hira": "にょ",
+   "kata": "ニョ",
+   "hepburn": "nyo",
+   "kunrei": "nyo"
+  },
+  {
+   "hira": "ひゃ",
+   "kata": "ヒャ",
+   "hepburn": "hya",
+   "kunrei": "hya"
+  },
+  {
+   "hira": "ひゅ",
+   "kata": "ヒュ",
+   "hepburn": "hyu",
+   "kunrei": "hyu"
+  },
+  {
+   "hira": "ひょ",
+   "kata": "ヒョ",
+   "hepburn": "hyo",
+   "kunrei": "hyo"
+  },
+  {
+   "hira": "みゃ",
+   "kata": "ミャ",
+   "hepburn": "mya",
+   "kunrei": "mya"
+  },
+  {
+   "hira": "みゅ",
+   "kata": "ミュ",
+   "hepburn": "myu",
+   "kunrei": "myu"
+  },
+  {
+   "hira": "みょ",
+   "kata": "ミョ",
+   "hepburn": "myo",
+   "kunrei": "myo"
+  },
+  {
+   "hira": "りゃ",
+   "kata": "リャ",
+   "hepburn": "rya",
+   "kunrei": "rya"
+  },
+  {
+   "hira": "りゅ",
+   "kata": "リュ",
+   "hepburn": "ryu",
+   "kunrei": "ryu"
+  },
+  {
+   "hira": "りょ",
+   "kata": "リョ",
+   "hepburn": "ryo",
+   "kunrei": "ryo"
+  },
+  {
+   "hira": "ぎゃ",
+   "kata": "ギャ",
+   "hepburn": "gya",
+   "kunrei": "gya"
+  },
+  {
+   "hira": "ぎゅ",
+   "kata": "ギュ",
+   "hepburn": "gyu",
+   "kunrei": "gyu"
+  },
+  {
+   "hira": "ぎょ",
+   "kata": "ギョ",
+   "hepburn": "gyo",
+   "kunrei": "gyo"
+  },
+  {
+   "hira": "じゃ",
+   "kata": "ジャ",
+   "hepburn": "ja",
+   "kunrei": "zya"
+  },
+  {
+   "hira": "じゅ",
+   "kata": "ジュ",
+   "hepburn": "ju",
+   "kunrei": "zyu"
+  },
+  {
+   "hira": "じょ",
+   "kata": "ジョ",
+   "hepburn": "jo",
+   "kunrei": "zyo"
+  },
+  {
+   "hira": "ぢゃ",
+   "kata": "ヂャ",
+   "hepburn": "ja",
+   "kunrei": "zya"
+  },
+  {
+   "hira": "ぢゅ",
+   "kata": "ヂュ",
+   "hepburn": "ju",
+   "kunrei": "zyu"
+  },
+  {
+   "hira": "ぢょ",
+   "kata": "ヂョ",
+   "hepburn": "jo",
+   "kunrei": "zyo"
+  },
+  {
+   "hira": "びゃ",
+   "kata": "ビャ",
+   "hepburn": "bya",
+   "kunrei": "bya"
+  },
+  {
+   "hira": "びゅ",
+   "kata": "ビュ",
+   "hepburn": "byu",
+   "kunrei": "byu"
+  },
+  {
+   "hira": "びょ",
+   "kata": "ビョ",
+   "hepburn": "byo",
+   "kunrei": "byo"
+  },
+  {
+   "hira": "ぴゃ",
+   "kata": "ピャ",
+   "hepburn": "pya",
+   "kunrei": "pya"
+  },
+  {
+   "hira": "ぴゅ",
+   "kata": "ピュ",
+   "hepburn": "pyu",
+   "kunrei": "pyu"
+  },
+  {
+   "hira": "ぴょ",
+   "kata": "ピョ",
+   "hepburn": "pyo",
+   "kunrei": "pyo"
+  },
+  {
+   "hira": "ふぁ",
+   "kata": "ファ",
+   "hepburn": "fa",
+   "kunrei": "fa"
+  },
+  {
+   "hira": "ふぃ",
+   "kata": "フィ",
+   "hepburn": "fi",
+   "kunrei": "fi"
+  },
+  {
+   "hira": "ふぇ",
+   "kata": "フェ",
+   "hepburn": "fe",
+   "kunrei": "fe"
+  },
+  {
+   "hira": "ふぉ",
+   "kata": "フォ",
+   "hepburn": "fo",
+   "kunrei": "fo"
+  },
+  {
+   "hira": "ふゅ",
+   "kata": "フュ",
+   "hepburn": "fyu",
+   "kunrei": "fyu"
+  },
+  {
+   "hira": "てぃ",
+   "kata": "ティ",
+   "hepburn": "ti",
+   "kunrei": "ti"
+  },
+  {
+   "hira": "でぃ",
+   "kata": "ディ",
+   "hepburn": "di",
+   "kunrei": "di"
+  },
+  {
+   "hira": "とぅ",
+   "kata": "トゥ",
+   "hepburn": "tu",
+   "kunrei": "tu"
+  },
+  {
+   "hira": "どぅ",
+   "kata": "ドゥ",
+   "hepburn": "du",
+   "kunrei": "du"
+  },
+  {
+   "hira": "つぁ",
+   "kata": "ツァ",
+   "hepburn": "tsa",
+   "kunrei": "tsa"
+  },
+  {
+   "hira": "つぃ",
+   "kata": "ツィ",
+   "hepburn": "tsi",
+   "kunrei": "tsi"
+  },
+  {
+   "hira": "つぇ",
+   "kata": "ツェ",
+   "hepburn": "tse",
+   "kunrei": "tse"
+  },
+  {
+   "hira": "つぉ",
+   "kata": "ツォ",
+   "hepburn": "tso",
+   "kunrei": "tso"
+  },
+  {
+   "hira": "うぁ",
+   "kata": "ウァ",
+   "hepburn": "wa",
+   "kunrei": "wa"
+  },
+  {
+   "hira": "うぃ",
+   "kata": "ウィ",
+   "hepburn": "wi",
+   "kunrei": "wi"
+  },
+  {
+   "hira": "うぇ",
+   "kata": "ウェ",
+   "hepburn": "we",
+   "kunrei": "we"
+  },
+  {
+   "hira": "うぉ",
+   "kata": "ウォ",
+   "hepburn": "wo",
+   "kunrei": "wo"
+  },
+  {
+   "hira": "しぇ",
+   "kata": "シェ",
+   "hepburn": "she",
+   "kunrei": "sye"
+  },
+  {
+   "hira": "じぇ",
+   "kata": "ジェ",
+   "hepburn": "je",
+   "kunrei": "zye"
+  },
+  {
+   "hira": "ちぇ",
+   "kata": "チェ",
+   "hepburn": "che",
+   "kunrei": "tye"
+  },
+  {
+   "hira": "すぃ",
+   "kata": "スィ",
+   "hepburn": "si",
+   "kunrei": "si"
+  },
+  {
+   "hira": "ずぃ",
+   "kata": "ズィ",
+   "hepburn": "zi",
+   "kunrei": "zi"
+  },
+  {
+   "hira": "きぇ",
+   "kata": "キェ",
+   "hepburn": "kye",
+   "kunrei": "kye"
+  },
+  {
+   "hira": "ぎぇ",
+   "kata": "ギェ",
+   "hepburn": "gye",
+   "kunrei": "gye"
+  },
+  {
+   "hira": "にぇ",
+   "kata": "ニェ",
+   "hepburn": "nye",
+   "kunrei": "nye"
+  },
+  {
+   "hira": "ひぇ",
+   "kata": "ヒェ",
+   "hepburn": "hye",
+   "kunrei": "hye"
+  },
+  {
+   "hira": "びぇ",
+   "kata": "ビェ",
+   "hepburn": "bye",
+   "kunrei": "bye"
+  },
+  {
+   "hira": "ぴぇ",
+   "kata": "ピェ",
+   "hepburn": "pye",
+   "kunrei": "pye"
+  },
+  {
+   "hira": "みぇ",
+   "kata": "ミェ",
+   "hepburn": "mye",
+   "kunrei": "mye"
+  },
+  {
+   "hira": "りぇ",
+   "kata": "リェ",
+   "hepburn": "rye",
+   "kunrei": "rye"
+  },
+  {
+   "hira": "いぇ",
+   "kata": "イェ",
+   "hepburn": "ye",
+   "kunrei": "ye"
+  },
+  {
+   "hira": "くぁ",
+   "kata": "クァ",
+   "hepburn": "kwa",
+   "kunrei": "kwa"
+  },
+  {
+   "hira": "くぃ",
+   "kata": "クィ",
+   "hepburn": "kwi",
+   "kunrei": "kwi"
+  },
+  {
+   "hira": "くぇ",
+   "kata": "クェ",
+   "hepburn": "kwe",
+   "kunrei": "kwe"
+  },
+  {
+   "hira": "くぉ",
+   "kata": "クォ",
+   "hepburn": "kwo",
+   "kunrei": "kwo"
+  },
+  {
+   "hira": "ぐぁ",
+   "kata": "グァ",
+   "hepburn": "gwa",
+   "kunrei": "gwa"
+  },
+  {
+   "hira": "ゔぁ",
+   "kata": "ヴァ",
+   "hepburn": "va",
+   "kunrei": "va"
+  },
+  {
+   "hira": "ゔぃ",
+   "kata": "ヴィ",
+   "hepburn": "vi",
+   "kunrei": "vi"
+  },
+  {
+   "hira": "ゔぇ",
+   "kata": "ヴェ",
+   "hepburn": "ve",
+   "kunrei": "ve"
+  },
+  {
+   "hira": "ゔぉ",
+   "kata": "ヴォ",
+   "hepburn": "vo",
+   "kunrei": "vo"
+  }
+ ],
+ "single": [
+  {
+   "hira": "あ",
+   "kata": "ア",
+   "hepburn": "a",
+   "kunrei": "a"
+  },
+  {
+   "hira": "い",
+   "kata": "イ",
+   "hepburn": "i",
+   "kunrei": "i"
+  },
+  {
+   "hira": "う",
+   "kata": "ウ",
+   "hepburn": "u",
+   "kunrei": "u"
+  },
+  {
+   "hira": "え",
+   "kata": "エ",
+   "hepburn": "e",
+   "kunrei": "e"
+  },
+  {
+   "hira": "お",
+   "kata": "オ",
+   "hepburn": "o",
+   "kunrei": "o"
+  },
+  {
+   "hira": "か",
+   "kata": "カ",
+   "hepburn": "ka",
+   "kunrei": "ka"
+  },
+  {
+   "hira": "き",
+   "kata": "キ",
+   "hepburn": "ki",
+   "kunrei": "ki"
+  },
+  {
+   "hira": "く",
+   "kata": "ク",
+   "hepburn": "ku",
+   "kunrei": "ku"
+  },
+  {
+   "hira": "け",
+   "kata": "ケ",
+   "hepburn": "ke",
+   "kunrei": "ke"
+  },
+  {
+   "hira": "こ",
+   "kata": "コ",
+   "hepburn": "ko",
+   "kunrei": "ko"
+  },
+  {
+   "hira": "さ",
+   "kata": "サ",
+   "hepburn": "sa",
+   "kunrei": "sa"
+  },
+  {
+   "hira": "し",
+   "kata": "シ",
+   "hepburn": "shi",
+   "kunrei": "si"
+  },
+  {
+   "hira": "す",
+   "kata": "ス",
+   "hepburn": "su",
+   "kunrei": "su"
+  },
+  {
+   "hira": "せ",
+   "kata": "セ",
+   "hepburn": "se",
+   "kunrei": "se"
+  },
+  {
+   "hira": "そ",
+   "kata": "ソ",
+   "hepburn": "so",
+   "kunrei": "so"
+  },
+  {
+   "hira": "た",
+   "kata": "タ",
+   "hepburn": "ta",
+   "kunrei": "ta"
+  },
+  {
+   "hira": "ち",
+   "kata": "チ",
+   "hepburn": "chi",
+   "kunrei": "ti"
+  },
+  {
+   "hira": "つ",
+   "kata": "ツ",
+   "hepburn": "tsu",
+   "kunrei": "tu"
+  },
+  {
+   "hira": "て",
+   "kata": "テ",
+   "hepburn": "te",
+   "kunrei": "te"
+  },
+  {
+   "hira": "と",
+   "kata": "ト",
+   "hepburn": "to",
+   "kunrei": "to"
+  },
+  {
+   "hira": "な",
+   "kata": "ナ",
+   "hepburn": "na",
+   "kunrei": "na"
+  },
+  {
+   "hira": "に",
+   "kata": "ニ",
+   "hepburn": "ni",
+   "kunrei": "ni"
+  },
+  {
+   "hira": "ぬ",
+   "kata": "ヌ",
+   "hepburn": "nu",
+   "kunrei": "nu"
+  },
+  {
+   "hira": "ね",
+   "kata": "ネ",
+   "hepburn": "ne",
+   "kunrei": "ne"
+  },
+  {
+   "hira": "の",
+   "kata": "ノ",
+   "hepburn": "no",
+   "kunrei": "no"
+  },
+  {
+   "hira": "は",
+   "kata": "ハ",
+   "hepburn": "ha",
+   "kunrei": "ha"
+  },
+  {
+   "hira": "ひ",
+   "kata": "ヒ",
+   "hepburn": "hi",
+   "kunrei": "hi"
+  },
+  {
+   "hira": "ふ",
+   "kata": "フ",
+   "hepburn": "fu",
+   "kunrei": "hu"
+  },
+  {
+   "hira": "へ",
+   "kata": "ヘ",
+   "hepburn": "he",
+   "kunrei": "he"
+  },
+  {
+   "hira": "ほ",
+   "kata": "ホ",
+   "hepburn": "ho",
+   "kunrei": "ho"
+  },
+  {
+   "hira": "ま",
+   "kata": "マ",
+   "hepburn": "ma",
+   "kunrei": "ma"
+  },
+  {
+   "hira": "み",
+   "kata": "ミ",
+   "hepburn": "mi",
+   "kunrei": "mi"
+  },
+  {
+   "hira": "む",
+   "kata": "ム",
+   "hepburn": "mu",
+   "kunrei": "mu"
+  },
+  {
+   "hira": "め",
+   "kata": "メ",
+   "hepburn": "me",
+   "kunrei": "me"
+  },
+  {
+   "hira": "も",
+   "kata": "モ",
+   "hepburn": "mo",
+   "kunrei": "mo"
+  },
+  {
+   "hira": "や",
+   "kata": "ヤ",
+   "hepburn": "ya",
+   "kunrei": "ya"
+  },
+  {
+   "hira": "ゆ",
+   "kata": "ユ",
+   "hepburn": "yu",
+   "kunrei": "yu"
+  },
+  {
+   "hira": "よ",
+   "kata": "ヨ",
+   "hepburn": "yo",
+   "kunrei": "yo"
+  },
+  {
+   "hira": "ら",
+   "kata": "ラ",
+   "hepburn": "ra",
+   "kunrei": "ra"
+  },
+  {
+   "hira": "り",
+   "kata": "リ",
+   "hepburn": "ri",
+   "kunrei": "ri"
+  },
+  {
+   "hira": "る",
+   "kata": "ル",
+   "hepburn": "ru",
+   "kunrei": "ru"
+  },
+  {
+   "hira": "れ",
+   "kata": "レ",
+   "hepburn": "re",
+   "kunrei": "re"
+  },
+  {
+   "hira": "ろ",
+   "kata": "ロ",
+   "hepburn": "ro",
+   "kunrei": "ro"
+  },
+  {
+   "hira": "わ",
+   "kata": "ワ",
+   "hepburn": "wa",
+   "kunrei": "wa"
+  },
+  {
+   "hira": "ゐ",
+   "kata": "ヰ",
+   "hepburn": "wi",
+   "kunrei": "i"
+  },
+  {
+   "hira": "ゑ",
+   "kata": "ヱ",
+   "hepburn": "we",
+   "kunrei": "e"
+  },
+  {
+   "hira": "を",
+   "kata": "ヲ",
+   "hepburn": "wo",
+   "kunrei": "o"
+  },
+  {
+   "hira": "ん",
+   "kata": "ン",
+   "hepburn": "n",
+   "kunrei": "n"
+  },
+  {
+   "hira": "が",
+   "kata": "ガ",
+   "hepburn": "ga",
+   "kunrei": "ga"
+  },
+  {
+   "hira": "ぎ",
+   "kata": "ギ",
+   "hepburn": "gi",
+   "kunrei": "gi"
+  },
+  {
+   "hira": "ぐ",
+   "kata": "グ",
+   "hepburn": "gu",
+   "kunrei": "gu"
+  },
+  {
+   "hira": "げ",
+   "kata": "ゲ",
+   "hepburn": "ge",
+   "kunrei": "ge"
+  },
+  {
+   "hira": "ご",
+   "kata": "ゴ",
+   "hepburn": "go",
+   "kunrei": "go"
+  },
+  {
+   "hira": "ざ",
+   "kata": "ザ",
+   "hepburn": "za",
+   "kunrei": "za"
+  },
+  {
+   "hira": "じ",
+   "kata": "ジ",
+   "hepburn": "ji",
+   "kunrei": "zi"
+  },
+  {
+   "hira": "ず",
+   "kata": "ズ",
+   "hepburn": "zu",
+   "kunrei": "zu"
+  },
+  {
+   "hira": "ぜ",
+   "kata": "ゼ",
+   "hepburn": "ze",
+   "kunrei": "ze"
+  },
+  {
+   "hira": "ぞ",
+   "kata": "ゾ",
+   "hepburn": "zo",
+   "kunrei": "zo"
+  },
+  {
+   "hira": "だ",
+   "kata": "ダ",
+   "hepburn": "da",
+   "kunrei": "da"
+  },
+  {
+   "hira": "ぢ",
+   "kata": "ヂ",
+   "hepburn": "ji",
+   "kunrei": "zi"
+  },
+  {
+   "hira": "づ",
+   "kata": "ヅ",
+   "hepburn": "zu",
+   "kunrei": "du"
+  },
+  {
+   "hira": "で",
+   "kata": "デ",
+   "hepburn": "de",
+   "kunrei": "de"
+  },
+  {
+   "hira": "ど",
+   "kata": "ド",
+   "hepburn": "do",
+   "kunrei": "do"
+  },
+  {
+   "hira": "ば",
+   "kata": "バ",
+   "hepburn": "ba",
+   "kunrei": "ba"
+  },
+  {
+   "hira": "び",
+   "kata": "ビ",
+   "hepburn": "bi",
+   "kunrei": "bi"
+  },
+  {
+   "hira": "ぶ",
+   "kata": "ブ",
+   "hepburn": "bu",
+   "kunrei": "bu"
+  },
+  {
+   "hira": "べ",
+   "kata": "ベ",
+   "hepburn": "be",
+   "kunrei": "be"
+  },
+  {
+   "hira": "ぼ",
+   "kata": "ボ",
+   "hepburn": "bo",
+   "kunrei": "bo"
+  },
+  {
+   "hira": "ぱ",
+   "kata": "パ",
+   "hepburn": "pa",
+   "kunrei": "pa"
+  },
+  {
+   "hira": "ぴ",
+   "kata": "ピ",
+   "hepburn": "pi",
+   "kunrei": "pi"
+  },
+  {
+   "hira": "ぷ",
+   "kata": "プ",
+   "hepburn": "pu",
+   "kunrei": "pu"
+  },
+  {
+   "hira": "ぺ",
+   "kata": "ペ",
+   "hepburn": "pe",
+   "kunrei": "pe"
+  },
+  {
+   "hira": "ぽ",
+   "kata": "ポ",
+   "hepburn": "po",
+   "kunrei": "po"
+  },
+  {
+   "hira": "ゔ",
+   "kata": "ヴ",
+   "hepburn": "vu",
+   "kunrei": "bu"
+  },
+  {
+   "hira": "ぁ",
+   "kata": "ァ",
+   "hepburn": "a",
+   "kunrei": "a"
+  },
+  {
+   "hira": "ぃ",
+   "kata": "ィ",
+   "hepburn": "i",
+   "kunrei": "i"
+  },
+  {
+   "hira": "ぅ",
+   "kata": "ゥ",
+   "hepburn": "u",
+   "kunrei": "u"
+  },
+  {
+   "hira": "ぇ",
+   "kata": "ェ",
+   "hepburn": "e",
+   "kunrei": "e"
+  },
+  {
+   "hira": "ぉ",
+   "kata": "ォ",
+   "hepburn": "o",
+   "kunrei": "o"
+  },
+  {
+   "hira": "ゃ",
+   "kata": "ャ",
+   "hepburn": "ya",
+   "kunrei": "ya"
+  },
+  {
+   "hira": "ゅ",
+   "kata": "ュ",
+   "hepburn": "yu",
+   "kunrei": "yu"
+  },
+  {
+   "hira": "ょ",
+   "kata": "ョ",
+   "hepburn": "yo",
+   "kunrei": "yo"
+  },
+  {
+   "hira": "ゎ",
+   "kata": "ヮ",
+   "hepburn": "wa",
+   "kunrei": "wa"
+  },
+  {
+   "hira": "ゕ",
+   "kata": "ヵ",
+   "hepburn": "ka",
+   "kunrei": "ka"
+  },
+  {
+   "hira": "ゖ",
+   "kata": "ヶ",
+   "hepburn": "ke",
+   "kunrei": "ke"
+  }
+ ]
+}

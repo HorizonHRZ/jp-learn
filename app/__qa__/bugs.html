@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>QA · 五个 bug 的真浏览器验证</title>
+<!--
+  这个页面是 `tools/qa-bugs.mjs` 的载荷。
+
+  为什么必须用真浏览器、不能用假 DOM：
+    这五个 bug 里有三个**只在真实事件模型下才会暴露** ——
+      · 右下角那个查词按钮（要靠真实 DOM 才知道它到底在不在页面上）
+      · 单击 / 双击 / 右键的区分（假 DOM 里事件是手搓的，区分不出误触）
+      · 草稿自动保存的定时器（真的会跑 5 秒，假 DOM 里的"时间"是我们自己拨的）
+    假 DOM 能证明"代码里有这段逻辑"，证明不了"用户真的能点到 / 真的不会误触"。
+
+  ⚠️ 它启动的是**真正的 app.js**（不是单独渲染某个视图），
+     因为第 1 个 bug 就是"按钮只在某个页面、某个动作之后才出现"——
+     必须走真实的启动路径才测得到。
+-->
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="stylesheet" href="/css/theme.css">
+</head>
+<body>
+<div id="boot" class="boot">正在启动…</div>
+<header id="nav" class="nav"></header>
+<main id="mount" class="mount"></main>
+<footer id="foot" class="foot"></footer>
+<div id="toast-layer" class="toast-layer"></div>
+<script type="module" src="/app/__qa__/bugs.js"></script>
+</body>
+</html>

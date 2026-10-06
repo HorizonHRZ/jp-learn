@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>QA · 两栏阅读器真排版检查</title>
+<!--
+  这个页面是 `tools/qa-layout.mjs` 的载荷（它起一个临时只读服务来喂它）。
+
+  为什么需要一个真页面而不是在脚本里拼 HTML：
+  因为要验证的是**真浏览器的排版结果**，必须让 CSS 和模块按正常方式加载。
+
+  ⚠️ 这个目录（app/__qa__/）**只放自检用的载荷**，不是应用的一部分，
+     不会被 index.html 引用，用户也不会看到它。
+-->
+<link rel="stylesheet" href="/css/theme.css">
+<style>
+  /* 自检专用：把画布固定成笔记本宽度，让两栏的宽度可比 */
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); }
+  #mount { max-width: 1100px; margin: 0 auto; padding: 18px; }
+</style>
+</head>
+<body>
+<div id="mount"></div>
+<script type="module" src="/app/__qa__/reading.js"></script>
+</body>
+</html>

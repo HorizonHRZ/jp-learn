@@ -1,0 +1,19 @@
+{
+  "name": "日语学习",
+  "short_name": "日语学习",
+  "description": "本地优先的日语学习工具：查词、注音、背单词、歌词与精读、语法教材。数据只存本机浏览器。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c0392b",
+  "icons": [
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

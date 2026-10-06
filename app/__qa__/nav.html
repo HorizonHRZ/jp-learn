@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>QA · 顶部导航栏是否真的粘住</title>
+<!--
+  这个页面是 `tools/qa-nav.mjs` 的载荷。
+
+  为什么必须用真浏览器、不能用假 DOM：
+    "导航栏跟着页面上去了"是一个**滚动后的几何事实** ——
+    `position: sticky` 到底有没有生效，取决于
+      · 它的祖先里有没有 overflow 非 visible 的元素
+      · 产生滚动的是 documentElement 还是别的容器
+      · 有没有扩展注入的 CSS 把它覆盖掉
+    这三件事**只有真排版引擎知道**。假 DOM 里没有滚动这个概念。
+-->
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="stylesheet" href="/css/theme.css">
+</head>
+<body>
+<div id="boot" class="boot">正在启动…</div>
+<header id="nav" class="nav"></header>
+<main id="mount" class="mount"></main>
+<footer id="foot" class="foot"></footer>
+<div id="toast-layer" class="toast-layer"></div>
+<script type="module" src="/app/__qa__/nav.js"></script>
+</body>
+</html>
